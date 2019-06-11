@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Principle : " />
+
+        <EditText
+            android:id="@+id/editText"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:maxLength="7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+        android:textColor="@color/black"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intrest : " />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+             />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time : " />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="100dp"
+            android:maxLength="3"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+             />
+
+
+    </LinearLayout>
+
+    <Button
+        android:padding="20dp"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Intrest" />
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intrest is : " />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
